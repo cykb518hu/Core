@@ -1,0 +1,21 @@
+
+<h1>Test Angular</h1>
+<table class="table" *ngIf="models">
+  <thead>
+    <tr>
+      <th>
+        First
+      </th>
+      <th>Second</th>
+      <th>Third</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let a of models">
+      <td>{{a.first}}</td>
+      <td>{{a.second}}</td>
+      <td>{{a.third}}</td>
+    </tr>
+  </tbody>
+  </table>
+
